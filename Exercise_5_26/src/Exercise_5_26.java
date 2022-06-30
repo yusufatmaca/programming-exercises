@@ -1,5 +1,5 @@
-/* (Compute e) You can approximate e using the following summation:
-https://ibb.co/T8tDz4C
+/* Computing e using recursive function and for loop.
+Question: https://ibb.co/T8tDz4C
  */
 public class Exercise_5_26 {
     public static void main(String[] args) {
