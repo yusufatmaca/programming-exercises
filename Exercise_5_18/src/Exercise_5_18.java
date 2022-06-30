@@ -22,9 +22,5 @@ public class Exercise518 {
             }
             System.out.println();
         }
-
-
     }
-
 }
-
