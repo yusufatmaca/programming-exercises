@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercise518 {
+public class Exercise5_18 {
 
     public static void main(String[] args) {
         /* (Display four patterns using loops) Use nested loops that display the following
