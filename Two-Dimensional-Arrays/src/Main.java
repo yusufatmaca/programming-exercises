@@ -43,4 +43,16 @@ public class Main {
             System.out.println();
         }
     }
+    static int findLargestRow(int[][] matrix){
+        int largestRow = 0;
+        for (int rows = 0; rows < matrix.length; rows++) {
+            int tempLargestRow = 0;
+            for (int columns = 0; columns < matrix[rows].length; columns++) {
+               tempLargestRow += matrix[rows][columns];
+               if (tempLargestRow > largestRow)
+                   largestRow = tempLargestRow;
+            }
+        }
+        return largestRow;
+    }
 }
